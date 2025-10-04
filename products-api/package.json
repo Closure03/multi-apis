@@ -7,9 +7,17 @@
     "start": "node src/app.js"
   },
   "dependencies": {
+<<<<<<< HEAD
     "cors": "^2.8.5",
     "express": "^4.19.2",
     "node-fetch": "^3.3.2",
     "pg": "^8.16.3"
   }
 }
+=======
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "node-fetch": "^3.3.2"
+  }
+}
+>>>>>>> 47cde7ba3a4a6d3c61f313819ed5cc781d60defe

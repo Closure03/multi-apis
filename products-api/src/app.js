@@ -31,6 +31,7 @@ app.post("/products", (req, res) => {
   });
 });
 
+<<<<<<< HEAD
 // Health DB
 app.get("/db/health", async (_req, res) => {
   try {
@@ -41,6 +42,8 @@ app.get("/db/health", async (_req, res) => {
   }
 });
 
+=======
+>>>>>>> 47cde7ba3a4a6d3c61f313819ed5cc781d60defe
 // Ejemplo de comunicación entre servicios (compose crea la red):
 // GET /products/with-users  -> concatena productos con conteo de usuarios (mock)
 app.get("/products/with-users", async (_req, res) => {
